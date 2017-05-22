@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85FE201F1ED2B1FE00253C14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE201E1ED2B1FE00253C14 /* main.m */; };
+		85FE20221ED2B1FE00253C14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20211ED2B1FE00253C14 /* AppDelegate.m */; };
+		85FE20251ED2B1FE00253C14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20241ED2B1FE00253C14 /* ViewController.m */; };
+		85FE20281ED2B1FE00253C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FE20261ED2B1FE00253C14 /* Main.storyboard */; };
+		85FE202A1ED2B1FE00253C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FE20291ED2B1FE00253C14 /* Assets.xcassets */; };
+		85FE202D1ED2B1FE00253C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FE202B1ED2B1FE00253C14 /* LaunchScreen.storyboard */; };
+		85FE20381ED2B1FE00253C14 /* InterceptTrafficDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20371ED2B1FE00253C14 /* InterceptTrafficDemoTests.m */; };
+		85FE20431ED2B1FE00253C14 /* InterceptTrafficDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20421ED2B1FE00253C14 /* InterceptTrafficDemoUITests.m */; };
+		85FE20631ED2B2DD00253C14 /* HJNetworkingMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20521ED2B2DD00253C14 /* HJNetworkingMonitor.m */; };
+		85FE20641ED2B2DD00253C14 /* HJNetworkingRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20541ED2B2DD00253C14 /* HJNetworkingRecorder.m */; };
+		85FE20651ED2B2DD00253C14 /* HJRequestRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20561ED2B2DD00253C14 /* HJRequestRecordModel.m */; };
+		85FE20661ED2B2DD00253C14 /* HJURLAfterProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20591ED2B2DD00253C14 /* HJURLAfterProtocol.m */; };
+		85FE20671ED2B2DD00253C14 /* HJURLBeforeProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE205C1ED2B2DD00253C14 /* HJURLBeforeProtocol.m */; };
+		85FE20681ED2B2DD00253C14 /* HJURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE205E1ED2B2DD00253C14 /* HJURLProtocol.m */; };
+		85FE20691ED2B2DD00253C14 /* HJURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20601ED2B2DD00253C14 /* HJURLSessionConfiguration.m */; };
+		85FE206A1ED2B2DD00253C14 /* NSURLProtocol+WebKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE20621ED2B2DD00253C14 /* NSURLProtocol+WebKitSupport.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85FE20341ED2B1FE00253C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FE20121ED2B1FE00253C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85FE20191ED2B1FE00253C14;
+			remoteInfo = InterceptTrafficDemo;
+		};
+		85FE203F1ED2B1FE00253C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FE20121ED2B1FE00253C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85FE20191ED2B1FE00253C14;
+			remoteInfo = InterceptTrafficDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85FE201A1ED2B1FE00253C14 /* InterceptTrafficDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterceptTrafficDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FE201E1ED2B1FE00253C14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85FE20201ED2B1FE00253C14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85FE20211ED2B1FE00253C14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85FE20231ED2B1FE00253C14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85FE20241ED2B1FE00253C14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85FE20271ED2B1FE00253C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85FE20291ED2B1FE00253C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85FE202C1ED2B1FE00253C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85FE202E1ED2B1FE00253C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85FE20331ED2B1FE00253C14 /* InterceptTrafficDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterceptTrafficDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FE20371ED2B1FE00253C14 /* InterceptTrafficDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterceptTrafficDemoTests.m; sourceTree = "<group>"; };
+		85FE20391ED2B1FE00253C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85FE203E1ED2B1FE00253C14 /* InterceptTrafficDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterceptTrafficDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FE20421ED2B1FE00253C14 /* InterceptTrafficDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterceptTrafficDemoUITests.m; sourceTree = "<group>"; };
+		85FE20441ED2B1FE00253C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85FE20511ED2B2DD00253C14 /* HJNetworkingMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNetworkingMonitor.h; sourceTree = "<group>"; };
+		85FE20521ED2B2DD00253C14 /* HJNetworkingMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNetworkingMonitor.m; sourceTree = "<group>"; };
+		85FE20531ED2B2DD00253C14 /* HJNetworkingRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNetworkingRecorder.h; sourceTree = "<group>"; };
+		85FE20541ED2B2DD00253C14 /* HJNetworkingRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNetworkingRecorder.m; sourceTree = "<group>"; };
+		85FE20551ED2B2DD00253C14 /* HJRequestRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRequestRecordModel.h; sourceTree = "<group>"; };
+		85FE20561ED2B2DD00253C14 /* HJRequestRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRequestRecordModel.m; sourceTree = "<group>"; };
+		85FE20581ED2B2DD00253C14 /* HJURLAfterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJURLAfterProtocol.h; sourceTree = "<group>"; };
+		85FE20591ED2B2DD00253C14 /* HJURLAfterProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJURLAfterProtocol.m; sourceTree = "<group>"; };
+		85FE205B1ED2B2DD00253C14 /* HJURLBeforeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJURLBeforeProtocol.h; sourceTree = "<group>"; };
+		85FE205C1ED2B2DD00253C14 /* HJURLBeforeProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJURLBeforeProtocol.m; sourceTree = "<group>"; };
+		85FE205D1ED2B2DD00253C14 /* HJURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJURLProtocol.h; sourceTree = "<group>"; };
+		85FE205E1ED2B2DD00253C14 /* HJURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJURLProtocol.m; sourceTree = "<group>"; };
+		85FE205F1ED2B2DD00253C14 /* HJURLSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJURLSessionConfiguration.h; sourceTree = "<group>"; };
+		85FE20601ED2B2DD00253C14 /* HJURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJURLSessionConfiguration.m; sourceTree = "<group>"; };
+		85FE20611ED2B2DD00253C14 /* NSURLProtocol+WebKitSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WebKitSupport.h"; sourceTree = "<group>"; };
+		85FE20621ED2B2DD00253C14 /* NSURLProtocol+WebKitSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WebKitSupport.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85FE20171ED2B1FE00253C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FE20301ED2B1FE00253C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FE203B1ED2B1FE00253C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85FE20111ED2B1FE00253C14 = {
+			isa = PBXGroup;
+			children = (
+				85FE201C1ED2B1FE00253C14 /* InterceptTrafficDemo */,
+				85FE20361ED2B1FE00253C14 /* InterceptTrafficDemoTests */,
+				85FE20411ED2B1FE00253C14 /* InterceptTrafficDemoUITests */,
+				85FE201B1ED2B1FE00253C14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85FE201B1ED2B1FE00253C14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85FE201A1ED2B1FE00253C14 /* InterceptTrafficDemo.app */,
+				85FE20331ED2B1FE00253C14 /* InterceptTrafficDemoTests.xctest */,
+				85FE203E1ED2B1FE00253C14 /* InterceptTrafficDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85FE201C1ED2B1FE00253C14 /* InterceptTrafficDemo */ = {
+			isa = PBXGroup;
+			children = (
+				85FE20501ED2B2DD00253C14 /* HJNetworkingMonitor */,
+				85FE20201ED2B1FE00253C14 /* AppDelegate.h */,
+				85FE20211ED2B1FE00253C14 /* AppDelegate.m */,
+				85FE20231ED2B1FE00253C14 /* ViewController.h */,
+				85FE20241ED2B1FE00253C14 /* ViewController.m */,
+				85FE20261ED2B1FE00253C14 /* Main.storyboard */,
+				85FE20291ED2B1FE00253C14 /* Assets.xcassets */,
+				85FE202B1ED2B1FE00253C14 /* LaunchScreen.storyboard */,
+				85FE202E1ED2B1FE00253C14 /* Info.plist */,
+				85FE201D1ED2B1FE00253C14 /* Supporting Files */,
+			);
+			path = InterceptTrafficDemo;
+			sourceTree = "<group>";
+		};
+		85FE201D1ED2B1FE00253C14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85FE201E1ED2B1FE00253C14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85FE20361ED2B1FE00253C14 /* InterceptTrafficDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				85FE20371ED2B1FE00253C14 /* InterceptTrafficDemoTests.m */,
+				85FE20391ED2B1FE00253C14 /* Info.plist */,
+			);
+			path = InterceptTrafficDemoTests;
+			sourceTree = "<group>";
+		};
+		85FE20411ED2B1FE00253C14 /* InterceptTrafficDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85FE20421ED2B1FE00253C14 /* InterceptTrafficDemoUITests.m */,
+				85FE20441ED2B1FE00253C14 /* Info.plist */,
+			);
+			path = InterceptTrafficDemoUITests;
+			sourceTree = "<group>";
+		};
+		85FE20501ED2B2DD00253C14 /* HJNetworkingMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				85FE20511ED2B2DD00253C14 /* HJNetworkingMonitor.h */,
+				85FE20521ED2B2DD00253C14 /* HJNetworkingMonitor.m */,
+				85FE20531ED2B2DD00253C14 /* HJNetworkingRecorder.h */,
+				85FE20541ED2B2DD00253C14 /* HJNetworkingRecorder.m */,
+				85FE20551ED2B2DD00253C14 /* HJRequestRecordModel.h */,
+				85FE20561ED2B2DD00253C14 /* HJRequestRecordModel.m */,
+				85FE20571ED2B2DD00253C14 /* HJURLAfterProtocol */,
+				85FE205A1ED2B2DD00253C14 /* HJURLBeforeProtocol */,
+				85FE205D1ED2B2DD00253C14 /* HJURLProtocol.h */,
+				85FE205E1ED2B2DD00253C14 /* HJURLProtocol.m */,
+				85FE205F1ED2B2DD00253C14 /* HJURLSessionConfiguration.h */,
+				85FE20601ED2B2DD00253C14 /* HJURLSessionConfiguration.m */,
+				85FE20611ED2B2DD00253C14 /* NSURLProtocol+WebKitSupport.h */,
+				85FE20621ED2B2DD00253C14 /* NSURLProtocol+WebKitSupport.m */,
+			);
+			path = HJNetworkingMonitor;
+			sourceTree = "<group>";
+		};
+		85FE20571ED2B2DD00253C14 /* HJURLAfterProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				85FE20581ED2B2DD00253C14 /* HJURLAfterProtocol.h */,
+				85FE20591ED2B2DD00253C14 /* HJURLAfterProtocol.m */,
+			);
+			path = HJURLAfterProtocol;
+			sourceTree = "<group>";
+		};
+		85FE205A1ED2B2DD00253C14 /* HJURLBeforeProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				85FE205B1ED2B2DD00253C14 /* HJURLBeforeProtocol.h */,
+				85FE205C1ED2B2DD00253C14 /* HJURLBeforeProtocol.m */,
+			);
+			path = HJURLBeforeProtocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85FE20191ED2B1FE00253C14 /* InterceptTrafficDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FE20471ED2B1FE00253C14 /* Build configuration list for PBXNativeTarget "InterceptTrafficDemo" */;
+			buildPhases = (
+				85FE20161ED2B1FE00253C14 /* Sources */,
+				85FE20171ED2B1FE00253C14 /* Frameworks */,
+				85FE20181ED2B1FE00253C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterceptTrafficDemo;
+			productName = InterceptTrafficDemo;
+			productReference = 85FE201A1ED2B1FE00253C14 /* InterceptTrafficDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85FE20321ED2B1FE00253C14 /* InterceptTrafficDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FE204A1ED2B1FE00253C14 /* Build configuration list for PBXNativeTarget "InterceptTrafficDemoTests" */;
+			buildPhases = (
+				85FE202F1ED2B1FE00253C14 /* Sources */,
+				85FE20301ED2B1FE00253C14 /* Frameworks */,
+				85FE20311ED2B1FE00253C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FE20351ED2B1FE00253C14 /* PBXTargetDependency */,
+			);
+			name = InterceptTrafficDemoTests;
+			productName = InterceptTrafficDemoTests;
+			productReference = 85FE20331ED2B1FE00253C14 /* InterceptTrafficDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85FE203D1ED2B1FE00253C14 /* InterceptTrafficDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FE204D1ED2B1FE00253C14 /* Build configuration list for PBXNativeTarget "InterceptTrafficDemoUITests" */;
+			buildPhases = (
+				85FE203A1ED2B1FE00253C14 /* Sources */,
+				85FE203B1ED2B1FE00253C14 /* Frameworks */,
+				85FE203C1ED2B1FE00253C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FE20401ED2B1FE00253C14 /* PBXTargetDependency */,
+			);
+			name = InterceptTrafficDemoUITests;
+			productName = InterceptTrafficDemoUITests;
+			productReference = 85FE203E1ED2B1FE00253C14 /* InterceptTrafficDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85FE20121ED2B1FE00253C14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lchen;
+				TargetAttributes = {
+					85FE20191ED2B1FE00253C14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JNQK3543KK;
+						ProvisioningStyle = Automatic;
+					};
+					85FE20321ED2B1FE00253C14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JNQK3543KK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85FE20191ED2B1FE00253C14;
+					};
+					85FE203D1ED2B1FE00253C14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JNQK3543KK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85FE20191ED2B1FE00253C14;
+					};
+				};
+			};
+			buildConfigurationList = 85FE20151ED2B1FE00253C14 /* Build configuration list for PBXProject "InterceptTrafficDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85FE20111ED2B1FE00253C14;
+			productRefGroup = 85FE201B1ED2B1FE00253C14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85FE20191ED2B1FE00253C14 /* InterceptTrafficDemo */,
+				85FE20321ED2B1FE00253C14 /* InterceptTrafficDemoTests */,
+				85FE203D1ED2B1FE00253C14 /* InterceptTrafficDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85FE20181ED2B1FE00253C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FE202D1ED2B1FE00253C14 /* LaunchScreen.storyboard in Resources */,
+				85FE202A1ED2B1FE00253C14 /* Assets.xcassets in Resources */,
+				85FE20281ED2B1FE00253C14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FE20311ED2B1FE00253C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FE203C1ED2B1FE00253C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85FE20161ED2B1FE00253C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FE20251ED2B1FE00253C14 /* ViewController.m in Sources */,
+				85FE20221ED2B1FE00253C14 /* AppDelegate.m in Sources */,
+				85FE20671ED2B2DD00253C14 /* HJURLBeforeProtocol.m in Sources */,
+				85FE20651ED2B2DD00253C14 /* HJRequestRecordModel.m in Sources */,
+				85FE20641ED2B2DD00253C14 /* HJNetworkingRecorder.m in Sources */,
+				85FE20631ED2B2DD00253C14 /* HJNetworkingMonitor.m in Sources */,
+				85FE20661ED2B2DD00253C14 /* HJURLAfterProtocol.m in Sources */,
+				85FE20681ED2B2DD00253C14 /* HJURLProtocol.m in Sources */,
+				85FE206A1ED2B2DD00253C14 /* NSURLProtocol+WebKitSupport.m in Sources */,
+				85FE201F1ED2B1FE00253C14 /* main.m in Sources */,
+				85FE20691ED2B2DD00253C14 /* HJURLSessionConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FE202F1ED2B1FE00253C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FE20381ED2B1FE00253C14 /* InterceptTrafficDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FE203A1ED2B1FE00253C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FE20431ED2B1FE00253C14 /* InterceptTrafficDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85FE20351ED2B1FE00253C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85FE20191ED2B1FE00253C14 /* InterceptTrafficDemo */;
+			targetProxy = 85FE20341ED2B1FE00253C14 /* PBXContainerItemProxy */;
+		};
+		85FE20401ED2B1FE00253C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85FE20191ED2B1FE00253C14 /* InterceptTrafficDemo */;
+			targetProxy = 85FE203F1ED2B1FE00253C14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85FE20261ED2B1FE00253C14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85FE20271ED2B1FE00253C14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85FE202B1ED2B1FE00253C14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85FE202C1ED2B1FE00253C14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85FE20451ED2B1FE00253C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85FE20461ED2B1FE00253C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85FE20481ED2B1FE00253C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNQK3543KK;
+				INFOPLIST_FILE = InterceptTrafficDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.chen.InterceptTrafficDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85FE20491ED2B1FE00253C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNQK3543KK;
+				INFOPLIST_FILE = InterceptTrafficDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.chen.InterceptTrafficDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85FE204B1ED2B1FE00253C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JNQK3543KK;
+				INFOPLIST_FILE = InterceptTrafficDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.chen.InterceptTrafficDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterceptTrafficDemo.app/InterceptTrafficDemo";
+			};
+			name = Debug;
+		};
+		85FE204C1ED2B1FE00253C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JNQK3543KK;
+				INFOPLIST_FILE = InterceptTrafficDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.chen.InterceptTrafficDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterceptTrafficDemo.app/InterceptTrafficDemo";
+			};
+			name = Release;
+		};
+		85FE204E1ED2B1FE00253C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JNQK3543KK;
+				INFOPLIST_FILE = InterceptTrafficDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.chen.InterceptTrafficDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InterceptTrafficDemo;
+			};
+			name = Debug;
+		};
+		85FE204F1ED2B1FE00253C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JNQK3543KK;
+				INFOPLIST_FILE = InterceptTrafficDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luke.chen.InterceptTrafficDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InterceptTrafficDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85FE20151ED2B1FE00253C14 /* Build configuration list for PBXProject "InterceptTrafficDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FE20451ED2B1FE00253C14 /* Debug */,
+				85FE20461ED2B1FE00253C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FE20471ED2B1FE00253C14 /* Build configuration list for PBXNativeTarget "InterceptTrafficDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FE20481ED2B1FE00253C14 /* Debug */,
+				85FE20491ED2B1FE00253C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FE204A1ED2B1FE00253C14 /* Build configuration list for PBXNativeTarget "InterceptTrafficDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FE204B1ED2B1FE00253C14 /* Debug */,
+				85FE204C1ED2B1FE00253C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FE204D1ED2B1FE00253C14 /* Build configuration list for PBXNativeTarget "InterceptTrafficDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FE204E1ED2B1FE00253C14 /* Debug */,
+				85FE204F1ED2B1FE00253C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85FE20121ED2B1FE00253C14 /* Project object */;
+}
