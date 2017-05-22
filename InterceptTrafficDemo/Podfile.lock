@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - FMDB
+  - Reachability
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 93e1322c4415cc85652ac89e150d15a06dfc913b
+
+COCOAPODS: 1.2.1

@@ -65,7 +65,7 @@ static HJNetworkingRecorder *recoder;
 }
 
 - (void)addRequestModel:(HJRequestRecordModel *)requestModel {
-//    NSLog(@"%@", requestModel);
+    NSLog(@"%@", requestModel);
     [self.databaseQueue inDatabase:^(FMDatabase *db) {
         [db executeUpdate:@"INSERT INTO t_requests(domain, start_time, end_time, time_interval, status_code, network_status, traffic_size) VALUES (?, ?, ?, ?, ?, ?, ?);", requestModel.domain, @(requestModel.startTime), @(requestModel.endTime), @(requestModel.timeInterval), @(requestModel.statusCode), requestModel.networkStatus, @(requestModel.trafficSize)];
     }];

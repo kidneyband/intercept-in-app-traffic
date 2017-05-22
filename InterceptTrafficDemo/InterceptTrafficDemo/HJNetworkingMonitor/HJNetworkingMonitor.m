@@ -7,16 +7,13 @@
 //
 
 #import "HJNetworkingMonitor.h"
-#import "HJURLBeforeProtocol.h"
 #import "HJURLProtocol.h"
-#import "HJURLAfterProtocol.h"
 
 
 @implementation HJNetworkingMonitor
 
 + (void)setEnable:(BOOL)enable {
     [HJURLProtocol setEnabled:enable];
-    [HJURLBeforeProtocol setEnabled:YES];
 }
 
 @end
